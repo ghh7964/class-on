@@ -1,0 +1,12 @@
+"use strict";
+window.CLASS_ON_FIXTURES=Object.freeze({
+  student:{name:"김민준",initialBalance:15,grossWage:12,taxRate:.1,residentTax:1,musicSpend:2,projectSpend:3},
+  meal:{menu:["현미보리밥","한우소머리장터국","두부양념구이","멸치꽈리고추볶음","깍두기","초코우유","메이플피칸파이"],updated:"2026.09.21 08:00",source:"한민고등학교 급식표"},
+  schedule:[{period:1,subject:"스포츠 과학",teacher:"박준영",room:"백마관",time:"08:10–09:00"},{period:2,subject:"공통영어2",teacher:"최유진",room:"1-13",time:"09:10–10:00"},{period:3,subject:"정보",teacher:"구현호",room:"AI라운지",time:"10:10–11:00"},{period:4,subject:"과학탐구실험2",teacher:"박지우",room:"물리실험실",time:"11:00–12:00"},{period:5,subject:"창의적 체험활동",teacher:"구현호",room:"1-13",time:"13:00–13:50"},{period:6,subject:"창의적 체험활동",teacher:"구현호",room:"1-13",time:"14:00–14:50"},{period:7,subject:"창의적 체험활동",teacher:"구현호",room:"1-13",time:"15:00–15:50"}],
+  notices:[{type:"중요",title:"과학탐구실험2 수행평가 준비물",date:"9월 21일",author:"구현호",body:"오늘 과학탐구실험2 수행평가에 사용할 실험복과 필기도구를 준비해 주세요."},{type:"학급",title:"창의적 체험활동 학급회의",date:"9월 21일",author:"김민재",body:"오늘 창의적 체험활동 시간에 웹 업무 견습 경로와 9월 공동프로젝트 안건을 다룹니다."},{type:"과제",title:"공통영어2 말하기 개요 제출",date:"9월 25일",author:"구현호",body:"A4 한 장 이내로 개요를 준비합니다. 자세한 내용은 클래스룸 참고 바랍니다."}],
+  events:[{date:"9월 21일",title:"학급회의",meta:"창의적 체험활동 · 1학년 13반",dday:"D-DAY"},{date:"9월 25일",title:"공통영어2 말하기 수행평가 개요 제출",meta:"오후 4시까지 리로스쿨에 제출",dday:"D-4"},{date:"9월 29일",title:"자리 희망구역 제출",meta:"비공개 제출",dday:"D-8"}],
+  jobs:[{title:"웹 게시 작업",type:"숙련업무",time:"35~45분",wage:"12 ON",status:"모집 중",result:"게시 URL·점검표"},{title:"학급 접근성 지원",type:"일반업무",time:"20~30분",wage:"8 ON",status:"모집 중",result:"개인정보 없는 참여환경 점검표"}],
+  songs:[{student:"김민준",title:"이 별로부터",artist:"아이유",status:"선곡 완료"},{student:"김민재",title:"LOVE ATTACK",artist:"RESCENE",status:"대기 1번"},{student:"고규민",title:"LEMONADE",artist:"aespa",status:"대기 2번"},{student:"김상우",title:"Drowning",artist:"WOODZ",status:"대기 3번"}],
+  projects:[{title:"프로필 배경·배지 만들기",description:"반 친구들이 함께 쓸 프로필 배경 3종과 활동 배지를 제작합니다.",goal:30,raised:30,governmentGrant:10,supporters:9,due:"9월 20일",myContribution:3},{title:"교실 소리환경 개선 기록",description:"수업·자습 시간대별 소음 정도를 기록해 조용한 구역 운영안을 만듭니다.",goal:40,raised:31,governmentGrant:0,supporters:9,due:"9월 28일",myContribution:0}],
+  budget:[{title:"공동프로젝트 지원",detail:"프로필 배경·배지 · 학생기여 30 ON 달성 후 교부",amount:10,status:"교부 확정"},{title:"학급회의 결과 웹 게시",detail:"웹 게시 작업 세전임금",amount:12,status:"지급 예정"},{title:"공용 태블릿 점검·대여표 정비",detail:"점검 노동 16 · 라벨·보관재료 8",amount:24,status:"승인"},{title:"공개행사 접근성 환경점검",detail:"추가 환경점검 노동",amount:8,status:"승인"},{title:"예비 공동프로젝트 몫",detail:"다음 회의 제안에 배정",amount:16,status:"보류"}]
+});
