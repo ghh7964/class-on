@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CLASS:ON 발표 자료</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #f4f7fb;
+      color: #16213e;
+      font-family: "Pretendard", "Apple SD Gothic Neo",
+        "Noto Sans KR", "Malgun Gothic", sans-serif;
+    }
+
+    main {
+      width: min(720px, calc(100% - 40px));
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 16px;
+      font-size: clamp(42px, 8vw, 72px);
+    }
+
+    p {
+      margin: 0 0 40px;
+      font-size: 20px;
+      line-height: 1.7;
+    }
+
+    nav {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    a {
+      padding: 24px;
+      border-radius: 16px;
+      background: #173f5f;
+      color: white;
+      font-size: 22px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:last-child {
+      background: #177d68;
+    }
+
+    a:focus-visible {
+      outline: 4px solid #2f6fed;
+      outline-offset: 4px;
+    }
+
+    small {
+      display: block;
+      margin-top: 32px;
+      color: #59647a;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>CLASS:ON</h1>
+    <p>함께 만들고, 함께 고치는 우리 반</p>
+
+    <nav aria-label="발표 자료">
+      <a href="./web-ppt/">웹 PPT 열기</a>
+      <a href="./web-demo/dist/?mode=present">CLASS:ON 시연 열기</a>
+    </nav>
+
+    <small>화면에 표시되는 학생과 거래내역은 발표용 가상 데이터입니다.</small>
+  </main>
+</body>
+</html>
